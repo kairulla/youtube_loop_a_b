@@ -1,2 +1,9 @@
-var v = $(".video-stream"); v.addEventListener('timeupdate', function() { if (Math.round(v.currentTime) == 100) v.currentTime = 15; });
+var
+a;
+b;
+v = $(".video-stream");
+v.addEventListener('timeupdate', function() {
+    if (Math.round(v.currentTime) == b) {
+        v.currentTime = a;
+        }});
 
