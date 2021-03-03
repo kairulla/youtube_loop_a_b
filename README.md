@@ -1,6 +1,6 @@
 [original source][1]
 
-# Как зациклить кусок видео на Youtube /nбез установки расширений для браузера
+# Как зациклить кусок видео на Youtube <br> без установки расширений для браузера
 
 1. откройте web console браузера (Ctrl-Shift-J в Chrome, Ctrl-Shift-K в Firefox)
 2. вставьте следующее: var v = $(".video-stream"); v.addEventListener('timeupdate', function() { if (Math.round(v.currentTime) == 100) v.currentTime = 15; });
